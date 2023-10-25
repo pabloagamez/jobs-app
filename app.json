@@ -12,7 +12,15 @@
       }
     },
     "android": {
-      "package": "com.pablodev_ght.testbarcodescanner"
+      "package": "com.pablodev_ght.testbarcodescanner",
+      "config": {
+        "appSecret": {
+          "value": "28990df3-873b-435d-aed0-49ab0d2d111a"
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "devpaul"
     }
   }
 }
