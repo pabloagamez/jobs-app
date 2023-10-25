@@ -81,7 +81,7 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.comtestbarcodescanner"
+    namespace 'com.pablodev_ght.testbarcodescanner'
     defaultConfig {
         applicationId 'com.pablodev_ght.testbarcodescanner'
         minSdkVersion rootProject.ext.minSdkVersion
