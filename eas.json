@@ -1,0 +1,22 @@
+{
+    "build": {
+        "production": {
+            "env": {
+                "EXPO_PUBLIC_API_URL": "https://api.production.com"
+            }
+        },
+        "test": {
+            "env": {
+                "EXPO_PUBLIC_API_URL": "https://api.test.com"
+            }
+        },
+        "preview": {
+            "android": {
+                "buildType": "apk"
+            },
+            "env": {
+                "EXPO_PUBLIC_API_URL": "https://api.preview.com"
+            }
+        }
+    }
+}

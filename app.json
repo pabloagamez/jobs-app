@@ -1,10 +1,18 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "testapp",
     "web": {
       "bundler": "metro"
     },
-    "name": "my-app",
-    "slug": "my-app"
+    "name": "com.test-barcodescanner",
+    "slug": "test-barcodescanner",
+    "extra": {
+      "eas": {
+        "projectId": "04841626-fc8b-470c-90a1-50429852b3b7"
+      }
+    },
+    "android": {
+      "package": "com.pablodev_ght.testbarcodescanner"
+    }
   }
 }
