@@ -8,6 +8,9 @@
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.11",
     "@react-native-material/core": "^1.3.7",
+    "appcenter": "5.0.0",
+    "appcenter-analytics": "5.0.0",
+    "appcenter-crashes": "5.0.0",
     "axios": "^1.4.0",
     "dotenv": "^16.3.1",
     "eas-cli": "^0.60.0",
