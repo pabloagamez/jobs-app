@@ -1,15 +1,14 @@
 import { useState } from "react";
 import {View, ScrollView, SafeAreaView} from 'react-native';
 import {Stack, useRouter } from 'expo-router';
-
 import {COLORS, icons, images, SIZES} from '../constants';
 import {Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome} from '../components';
-import BarCodeScannerHandler from '../components/devicehandler/BarCodeScanner';
+import BarCodeScannerHandler from "../components/devicehandler/BarCodeScanner";
+import FormValidation from "../components/common/forms/FormValidation";
 
 const Home = () => {
-
     const router = useRouter();
-    let accessBarCodeHandler = false;
+    let accessBarCodeHandler = true;
     const [searchTerm, setSearchTerm] = useState("");
 
     return (<SafeAreaView style={
@@ -40,7 +39,7 @@ const Home = () => {
                 }}
             >
                 {accessBarCodeHandler ? 
-                    <BarCodeScannerHandler />
+                    <FormValidation />
                 :                
                     <>
                         <Welcome 
