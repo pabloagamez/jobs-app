@@ -4,7 +4,6 @@ import { BarCodeScanner } from 'expo-barcode-scanner';
 import styles from "./barcodescanner.style";
 
 const BarCodeScannerHandler = () => {
-    
     const [hasPermission, setHasPermission] = useState(null);
     const [hasScanned, setHasScanned] = useState(false);
     const [scannedText, setScannedText] = useState("Not yet Scanned");
