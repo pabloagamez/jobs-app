@@ -51,16 +51,13 @@ const Home = () => {
                                 }
                             }}
                         />
-
                         <Popularjobs />
                         <Nearbyjobs />
                     </>                
                 }
-
             </View>
         </ScrollView>
-    </SafeAreaView>
-    
+    </SafeAreaView>   
     );
 }
 
